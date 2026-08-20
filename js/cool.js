@@ -15,7 +15,7 @@ console.log(name);
 // Створити змінну з іменем isStudent і присвоїти їй значення true або false, залежно від того, чи є студентом. Вивести значення цієї змінної в консоль.
 
 
-const isStudent = confirm("Ви є студентом?");
+const isStudent = true;
 
 
 console.log(isStudent);
@@ -29,9 +29,11 @@ console.log(myString);
 
 // Створити змінну з іменем myNumber і присвоїти їй довільне числове значення. Потім присвоїти цій змінній результат додавання до неї числа 10. Вивести значення myNumber в консоль.
 
-const myNumber = 36;
+let myNumber = 36;
 
-console.log(myNumber + 10);
+myNumber = myNumber + 10;
+
+console.log(myNumber);
 
 // Створити змінну з іменем myNull і присвоїти їй значення null. Вивести значення цієї змінної в консоль.
 
